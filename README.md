@@ -4,7 +4,10 @@ My internship working on single cell RNA data and creating networks to find gene
 ### Goal:
 Create a workflow to go from scRNA data to gene interaction networks that represent the interactions that are highly different in e.g. healthy and diseased cells (two different trajectories as a result of pseudotime analysis). After that verify the results by computing the correlation between the gene expression. Perfom a test for permutation p-value.
 
-### Files
+### Data:
+For this project I used different datasets from scanpy (https://scanpy.readthedocs.io/en/latest/index.html).
+
+### Files:
 ##### 01_trajectories_processing.ipynb
 Basic preprocessing of the sc-RNA data. Visualized the data and doing pseudotime analysis.
 Marked the two different trajectories and sorted the cells either to trajectory A or trajectory B.
