@@ -26,7 +26,7 @@ Here all the window networks are combined so that it results in one large networ
 Some of the genes are significant in more than one window.
 
 
-##### 05_correlation_and_testing
+##### 05_correlation_and_testing.ipynb
 Compute the correlation between two vectors of the expression matrix and compute the absolute value between them. Then do this for each pair in a window and after that for each pair in each window.
 To make sure to use a useful correlation method I tested two different methods to decide which one to use in the end. I decided to go with pearsons correlation coefficient.
 
